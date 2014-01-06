@@ -1,0 +1,32 @@
+{
+    "name": "valiqate",
+    "version": "0.0.0",
+    "description": "Promise-based validation",
+    "main": "src/valiqate.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "NODE_ENV=test mocha test/test-*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ajcrites/valiqate.git"
+    },
+    "keywords": [
+        "Validation",
+        "Promise",
+        "Deferred",
+        "Q"
+    ],
+    "author": "Andrew Crites",
+    "license": "Unlicense",
+    "readmeFilename": "README.md",
+    "dependencies": {
+        "q": "0.9.x"
+    },
+    "devDependencies": {
+        "mocha": "1.16.x",
+        "should": "2.1.x"
+    }
+}
