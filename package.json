@@ -23,7 +23,8 @@
     "license": "Unlicense",
     "readmeFilename": "README.md",
     "dependencies": {
-        "q": "0.9.x"
+        "q": "0.9.x",
+        "underscore": "1.5.2"
     },
     "devDependencies": {
         "mocha": "1.16.x",
